@@ -76,17 +76,35 @@
       "is_ready": true,
       "image": "kentang-goreng.jpg",
       "category_id": 3
+    },
+    {
+      "id": 7,
+      "code": "P0007",
+      "name": "Kentang goreng",
+      "price": 10000,
+      "is_ready": true,
+      "image": "kentang-goreng.jpg",
+      "category_id": 3
     }
   ],
   "carts": [
     {
-      "qty": 19,
+      "qty": "5",
       "price": "15000",
       "name": "Nasi Goreng",
-      "totalPrice": 285000,
+      "totalPrice": 75000,
       "note": "",
       "productId": "1",
       "id": 1
+    },
+    {
+      "qty": "10",
+      "price": "10000",
+      "name": "Es Jeruk",
+      "totalPrice": 100000,
+      "note": "",
+      "productId": "3",
+      "id": 2
     }
   ],
   "orders": [
@@ -223,6 +241,42 @@
       "detail[6][productId]": "7",
       "detail[6][id]": "7",
       "id": 3
+    },
+    {
+      "date": "2024-11-16T03:21:42.575Z",
+      "total": "285000",
+      "detail[0][qty]": "19",
+      "detail[0][price]": "15000",
+      "detail[0][name]": "Nasi Goreng",
+      "detail[0][totalPrice]": "285000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "1",
+      "detail[0][id]": "1",
+      "id": 4
+    },
+    {
+      "date": "2025-01-04T08:42:51.006Z",
+      "total": "50000",
+      "detail[0][qty]": "2",
+      "detail[0][price]": "10000",
+      "detail[0][name]": "Es Jeruk",
+      "detail[0][totalPrice]": "20000",
+      "detail[0][note]": "",
+      "detail[0][productId]": "3",
+      "detail[0][id]": "1",
+      "detail[1][qty]": "2",
+      "detail[1][price]": "15000",
+      "detail[1][name]": "Es Campur",
+      "detail[1][totalPrice]": "30000",
+      "detail[1][note]": "",
+      "detail[1][productId]": "4",
+      "detail[1][id]": "2",
+      "id": 5
+    },
+    {
+      "date": "2025-01-04T08:42:56.123Z",
+      "total": "0",
+      "id": 6
     }
   ]
 }
